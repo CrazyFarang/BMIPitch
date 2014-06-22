@@ -18,15 +18,21 @@ It must be on github
 It must contained some embedded R code that gets run when slidifying the document. 
 
 How to publish Slidify on Github? Courtesy of Prof. Brian Caffo
-Created the empty repo on github. Add the slide deck and all of the files at the command line (with gitbash) this includes the empty nojekyll file. In the directory do
+Created the empty repo on github. Add the slide deck and all of the files at the command line (with gitbash) this includes the empty nojekyll file. In the directory do  
+```
 git init
 git add * 
 git commit -a -m "Added all of the files"
 git remote add origin *put in your github origin here*
 git push origin master
-Then make a branch with
+```
+Then make a branch with  
+```
 git branch gh-pages
-Then push the branch to gh with
+```
+Then push the branch to gh with  
+```
 git push origin gh-pages
+```
 
-**BMI Pitch Slidify* [http://crazyfarang.github.io/BMIPitch/index.html]
+**BMI Pitch Slidify** [http://crazyfarang.github.io/BMIPitch/index.html]
